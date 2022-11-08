@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+<title>Travel</title>
+</head>
+<body>
+<div class="container">
+<h1>Travel reservation form</h1>
+<h3>* denotes mandotory</h3>
+
+<form id="registration_form" method="POST">
+  <label>Full name*:</label><br>
+  <input type="text" name="full_name" placeholder="FirstName LastName" autofocus="autofocus" value=""><br>   
+  <label>Email address*:</label><br>
+  <input type="text" name="email_addr" value=""><br>
+  <label>Select Tour Package* :</label><br>	
+   <select name="package">
+	<option value="standard" >Sandard</options>
+	<option value="plus" >Plus</options>
+	<option value="premuim" >Premuim</options>
+   </select>
+  
+  
+   <label>Arrival date:</label>
+  
+   <input type="text" name="arv_dt" placeholder="m/d/y" value=""><br>
+        <label>Number of persons*:</label><br>
+  <input type="text" name="persons" value=""s><br>
+     
+  
+  <label>What would you want to participate in?*</label> <br> 
+ Boarding
+ <input type="checkbox" 
+ 
+ 
+ name="boarding[]" 
+ value="boarding"  ><br>
+ Fooding<input 
+ type="checkbox"
+  name="food[]" 
+  value="fooding"  ><br>
+ Sight seeing<input 
+ type="checkbox" 
+ name="sightseeing[]" 
+ value="sightseeing"  ><br>
+   <label>Discount Coupon code:</label><br>
+  <input 
+  type="text" 
+  name="code" value="code"><br>
+      <label>Terms and conditions*</label><br>
+  
+      <input type="agree" name="button" value="agree" checked>I agree
+  
+      <input type="disagree" name="button" value="disagree" >I disagree<br>
+  
+      <button type="submit" class="btn btn-large btn-primary" name="submit">Complete reservation</button>
+</form>
+</div>
+</body>
+</html>

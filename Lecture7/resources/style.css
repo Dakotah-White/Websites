@@ -1,0 +1,111 @@
+
+/* buttons */
+body{
+    background-color: tan;
+    background-size: 100%;
+
+}
+button{
+    position: relative;
+    width:110px;
+    height: 20px;
+    padding:15px 0;
+    text-align: center;
+    background: transparent;
+    background-color: grey;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid blue;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+    color: black;
+}
+
+/* heading */
+h2{
+    
+    text-align: center;
+    color: black;
+    text-shadow: 4px 4px 2px blue;
+    text-size-adjust: 230px;
+	background-color: aliceblue;
+}
+#heading{
+    color:aliceblue;
+}
+/* intro paragragh */
+h6{
+    
+    text-align: left;
+    text-shadow: 4px 4px 2px grey;
+    color: black;
+    font-size: 40px;
+    word-spacing: 0px;
+    margin:0%
+}
+#heading{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.section-features .long-copy {
+	margin-bottom: 30px;
+}
+.section-profile {
+	padding: 0;
+}
+.profile-showcase {
+	list-style: none;
+	width: 100%;
+}
+.profile-showcase li {
+	display: inline-block;
+	width: 25%;
+	list-style: none;
+}
+.pro-photo {
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	background-color: #000;
+}
+.profile-photo img {
+	opacity: 0.7;
+	width: 250px;
+	height: auto;
+	transform: scale(1.15);
+	transition: transform 0.5s, opacity 0.5s;
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+}
+.profile-photo img:hover {
+	opacity: 1;
+	transform: scale(1);
+	-webkit-transform: scale(1.03);
+	-ms-transform: scale(1.03);
+}
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 40px 0;
+    background: #fff;
+    font-family: consolas;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0,0,0,0.1);
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+	color:#000
+}
+#last{
+	background-color: aliceblue;
+	list-style: none;
+}
